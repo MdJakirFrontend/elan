@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
+<!--[if gte IE 9] <style type="text/css"> .gradient {filter: none;}</style><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Required meta tags for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Favicon and touch icons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <meta name="misapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="@twitter_username" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="R" />
+    <meta property="fb:admins" content="Facebook numeric ID" />
+    <!-- gmail verification -->
+    <meta name="google-site-verification" content="" />
+    <!-- Website title -->
+    <title>Usage Fee</title>
+    <link rel="stylesheet" href="assets/css/fonts-import.css" />
+    <link rel="stylesheet" href="assets/css/nioicon.css" />
+    <link rel="stylesheet" href="assets/css/normalize.min.css" />
+    <link rel="stylesheet" href="assets/css/select2.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- jQuery (necessary for jQuery plugins) -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <!-- Main Coding Start Here -->
+
+
+
+
+
+    <!-- navigation-sidebar -->
+    <aside id="navigation-sidebar">
+        <nav class="navbar-light">
+            <div class="navigation-sidebar-collapse text-left mt-3">
+                <ul class="navbar-nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="assets/img/filI-icons/dashboard.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="assets/img/filI-icons/schedule.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Scheduler</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="instrument.html">
+                            <img src="assets/img/filI-icons/lab-instrument.svg" alt=""
+                                class="nav-icon img-fluid mr-2" />
+                            <span>Instrument</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="supplies-order.html">
+                            <img src="assets/img/filI-icons/supplies.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Supplies</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reports.html">
+                            <img src="assets/img/filI-icons/reportIcon.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Reports</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="settings-labSetup.html">
+                            <img src="assets/img/filI-icons/settings.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="dashboard-current-user mt-2 pl-1">
+                    <div class="dropdown">
+                        <div class="btn btn-user-profile py-0 px-0 d-flex align-items-center text-left" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="assets/img/avatar.png" alt="" class="current-user-img img-fluid mr-2" />
+                            <h6 class="user-name mb-0">Mangesh</h6>
+                        </div>
+                        <div class="user-profile-dropdown-menu dropdown-menu">
+                            <div class="name-and-other-things py-2 px-4 border-bottom">
+                                <h6 class="user-name mb-0">Mangesh</h6>
+                                <p class="email mb-0"><small>mangesh@gmail.com</small></p>
+                            </div>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/svg-icons/bundle-2/User.svg" alt="" class="imgIcon img-fluid" />
+                                My Profile
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/menu-icons/Supplies.svg" alt="" class="imgIcon img-fluid" />
+                                My Supplies
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/reportsIcon.png" alt="" class="imgIcon img-fluid" />
+                                My Reports
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/my-request.svg" alt="" class="imgIcon img-fluid" />
+                                My Requests
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/calender-blue.png" alt="" class="imgIcon img-fluid" />
+                                My Reservation
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/technical-issue.svg" alt="" class="imgIcon img-fluid" />
+                                My Technical Issues
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/lab-instrument.svg" alt="" class="imgIcon img-fluid" />
+                                Favorite Instrument
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/favourite-request.svg" alt=""
+                                    class="imgIcon img-fluid" />
+                                Favorite Request Forms
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/startpage.svg" alt="" class="imgIcon img-fluid" />
+                                Make as Start Page
+                            </a>
+                            <a class="dropdown-item dropdown-sign-out bg-primary text-light" href="#">
+                                <span class="ni ni-signout"></span>
+                                Sign Out
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="sidebar-logo">
+            <a class="navbar-brand main-logo px-0 py-0 d-inline-block mx-auto" href="index.html">
+                <img src="assets/img/logo.png" alt="" class="img-fluid" />
+            </a>
+        </div>
+    </aside>
+    <!-- navigation-sidebar -->
+
+
+
+
+    <!-- header -->
+    <header class="header">
+        <div class="container-fluid px-3 px-md-3">
+            <div class="row align-items-center justify-content-between flex-nowrap">
+                <div class="col">
+                    <div class="header-left-inner d-flex align-items-center ml-1 ml-md-lg">
+                        <button class="btn px-0 py-0 sidebarToggle mr-1 mr-lg-3">
+                            <span class="ni ni-menu"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <a href="index.html" class="d-inline-block dashboard-logo">
+                        <img src="assets/img/dashboard-logo.png" alt="" class="d-inline-block img-fluid" />
+                    </a>
+                </div>
+                <div class="col">
+                    <ul class="header-nav-list list-unstyled d-flex align-items-center justify-content-end my-0">
+                        <li class="d-block d-lg-none">
+                            <div class="dropdown dropdownForFacility">
+                                <button class="btn btn-light rounded-circle border" type="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/img/chevron-down.png" alt="" class="img-fluid" />
+                                </button>
+                                <div class="dropdown-menu">
+                                    <select class="form-control select2-init-forFacility">
+                                        <option> Media Prep (MPRP)</option>
+                                        <option> Media Prep</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="d-none d-lg-block mr-2">
+                            <select class="form-control select2-init-forFacility">
+                                <option> Media Prep (MPRP)</option>
+                                <option> Media Prep</option>
+                            </select>
+                        </li>
+                        <li>
+                            <ul class="list-unstyled header-nav-inner-list d-flex align-items-center">
+                                <li class="mr-1">
+                                    <div class="dropdown">
+                                        <button
+                                            class="btn badgeWrapper dropdown-toggle d-flex align-items-center text-left"
+                                            type="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <img src="assets/img/filI-icons/notification.svg" alt=""
+                                                class="img-fluid" />
+                                            <span class="badge badge-secondary">9</span>
+                                        </button>
+                                        <div class="notification-dropdown-menu dropdown-menu-panel dropdown-menu">
+                                            <div class="dropdown-menu-panel-head border-bottom py-4 text-center">
+                                                <h5 class="dropdown-menu-panel-head-title text-blue">Notification
+                                                </h5>
+                                            </div>
+                                            <ul class="dropdown-list-group list-group list-group-flush">
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-red.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Password change</h6>
+                                                            <p class="mb-0">Your password has been changed</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-yellow.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Login in</h6>
+                                                            <p class="mb-0">Your account logged in an unknown device
+                                                                from "USA"</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/plus-circle-green.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Lab</h6>
+                                                            <p class="mb-0">New lab added in list</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-red.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Password change</h6>
+                                                            <p class="mb-0">Your password has been changed</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-yellow.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Login in</h6>
+                                                            <p class="mb-0">Your account logged in an unknown device
+                                                                from "USA"</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/plus-circle-green.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Lab</h6>
+                                                            <p class="mb-0">New lab added in list</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="dropdown-menu-panel-head border-top py-4 text-center">
+                                                <a href="#" class="dropdown-menu-panel-head-title see-all">
+                                                    See All &nbsp; <i class="ni ni-arrow-long-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <button
+                                            class="btn badgeWrapper dropdown-toggle d-flex align-items-center text-left"
+                                            type="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <img src="assets/img/filI-icons/chat.svg" alt="" class="img-fluid" />
+                                            <span class="badge badge-secondary">5</span>
+                                        </button>
+                                        <div class="notification-dropdown-menu dropdown-menu-panel dropdown-menu">
+                                            <div
+                                                class="dropdown-menu-panel-head border-bottom py-4 px-4 d-flex align-items-center justify-content-between">
+                                                <h5 class="dropdown-menu-panel-head-title text-blue">Message</h5>
+                                                <span class="mb-0">All Mark As Read</span>
+                                            </div>
+                                            <ul class="dropdown-list-group list-group list-group-flush">
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Alex.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Alex Smith</h6>
+                                                            <p class="mb-0">Hi! I am Alex. Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Alberto.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Alberto Tolbert</h6>
+                                                            <p class="mb-0">Hi! I am Alberto J. Tolbert. Nice to
+                                                                meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Muriel.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Muriel Frye</h6>
+                                                            <p class="mb-0">Hi! I am Muriel Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Maria.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Maria Mitchell</h6>
+                                                            <p class="mb-0">Hi! I am Maria Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Charles.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Charles Credle</h6>
+                                                            <p class="mb-0">Hi! I am Charles Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Kenna.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Kenna McPherson</h6>
+                                                            <p class="mb-0">Hi! I am Kenna Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Ricky.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Ricky Ward</h6>
+                                                            <p class="mb-0">Hi! I am Ricky Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="dropdown-menu-panel-head border-top py-4 text-center">
+                                                <a href="#" class="dropdown-menu-panel-head-title see-all">
+                                                    See All &nbsp; <i class="ni ni-arrow-long-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+
+
+
+
+
+    <!-- dashboard -->
+    <main id="dashboard">
+
+        <!-- manual-breadcrumb -->
+        <div class="manual-breadcrumb py-2 mx-3 mx-md-3">
+            <div class="container-fluid px-0">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-5">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb py-0">
+                                <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <span>Usage Fee</span>
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="tableTop-actions d-flex align-items-center">
+                            <input type="text" class="form-control search-control instantSearch ml-lg-auto" />
+                            <button type="button" class="btn btn-ideal bg-theme-blue text-light px-3">
+                                Add
+                            </button>
+                            <div class="dropdown ideal-littleBit-action">
+                                <button type="button"
+                                    class="btn btn-ideal-circle bg-theme-blue-alfa px-0 ml-auto py-0 dropdown-toggle"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="ni ni-more-v"></span>
+                                </button>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item d-flex align-items-center" href="#">
+                                        <img src="assets/img/svg-icons/bundle-3/export-excel.svg" alt=""
+                                            class="imgIcon img-fluid mr-2" />
+                                        Export To Excel
+                                    </a>
+                                    <a class="dropdown-item d-flex align-items-center" href="#">
+                                        <img src="assets/img/svg-icons/bundle-3/export-pdf.svg" alt=""
+                                            class="imgIcon img-fluid mr-2" />
+                                        Export To Pdf
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ manual-breadcrumb -->
+
+
+
+        <!-- usage-fee -->
+        <section class="usage-fee mx-3 mx-md-3">
+            <div class="ideal-card bg-white rounded py-4 mb-3">
+                <!-- <header
+                    class="ideal-card-header border-bottom d-flex align-items-center justify-content-between px-4 py-3 mb-3">
+                    <div class="form-group mb-0">
+                        <input type="text" class="form-control search-control" placeholder="Search here..." />
+                    </div>
+                    <div class="usage-tableTop-actions d-flex align-items-center">
+                        <button type="button" class="btn btn-ideal bg-theme-blue text-light px-3 mr-3">
+                            Add
+                        </button>
+                        <div class="dropdown ideal-littleBit-action">
+                            <button type="button"
+                                class="btn btn-ideal-circle bg-theme-blue-alfa px-0 ml-auto py-0 dropdown-toggle"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="ni ni-more-v"></span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <img src="assets/img/svg-icons/bundle-3/export-excel.svg" alt=""
+                                        class="imgIcon img-fluid mr-2" />
+                                    Export To Excel
+                                </a>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <img src="assets/img/svg-icons/bundle-3/export-pdf.svg" alt=""
+                                        class="imgIcon img-fluid mr-2" />
+                                    Export To Pdf
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </header> -->
+                <div class="ideal-card-body px-4">
+                    <div class="usage-fee-table elegant-table">
+                        <div class="table-body table-responsive">
+                            <table class="table table-hover table-borderless">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col">Date</th>
+                                        <th scope="col">Last Update</th>
+                                        <th scope="col">Instrument Name</th>
+                                        <th scope="col">Lab Name</th>
+                                        <th scope="col">Session Type</th>
+                                        <th scope="col">Lab Billing Type</th>
+                                        <th scope="col">Role</th>
+                                        <th scope="col">Grant</th>
+                                        <th scope="col">From</th>
+                                        <th scope="col">To</th>
+                                        <th scope="col">Fee</th>
+                                        <th scope="col">Weekend Fee</th>
+                                        <th scope="col">Setup Fee</th>
+                                        <th scope="col" class="text-center">Action(s)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>03-16-20</td>
+                                        <td>03-16-20</td>
+                                        <td>Instrument 01 </td>
+                                        <td>Jhonson Lab </td>
+                                        <td>All Session </td>
+                                        <td>All Lab Billing </td>
+                                        <td>All Roles </td>
+                                        <td>All Grants </td>
+                                        <td>03-16-20 </td>
+                                        <td>03-16-20 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td class="text-center">
+                                            <div class="dropdown ideal-littleBit-action">
+                                                <button type="button"
+                                                    class="btn btn-ideal-circle bg-theme-blue-alfa px-0 mx-auto py-0 dropdown-toggle"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="ni ni-more-v"></span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-edit-alt"></span>
+                                                        Edit Details
+                                                    </a>
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-trash"></span>
+                                                        Delete
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>03-16-20</td>
+                                        <td>03-16-20</td>
+                                        <td>Instrument 01 </td>
+                                        <td>Jhonson Lab </td>
+                                        <td>All Session </td>
+                                        <td>All Lab Billing </td>
+                                        <td>All Roles </td>
+                                        <td>All Grants </td>
+                                        <td>03-16-20 </td>
+                                        <td>03-16-20 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td class="text-center">
+                                            <div class="dropdown ideal-littleBit-action">
+                                                <button type="button"
+                                                    class="btn btn-ideal-circle bg-theme-blue-alfa px-0 mx-auto py-0 dropdown-toggle"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="ni ni-more-v"></span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-edit-alt"></span>
+                                                        Edit Details
+                                                    </a>
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-trash"></span>
+                                                        Delete
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>03-16-20</td>
+                                        <td>03-16-20</td>
+                                        <td>Instrument 01 </td>
+                                        <td>Jhonson Lab </td>
+                                        <td>All Session </td>
+                                        <td>All Lab Billing </td>
+                                        <td>All Roles </td>
+                                        <td>All Grants </td>
+                                        <td>03-16-20 </td>
+                                        <td>03-16-20 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td class="text-center">
+                                            <div class="dropdown ideal-littleBit-action">
+                                                <button type="button"
+                                                    class="btn btn-ideal-circle bg-theme-blue-alfa px-0 mx-auto py-0 dropdown-toggle"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="ni ni-more-v"></span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-edit-alt"></span>
+                                                        Edit Details
+                                                    </a>
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-trash"></span>
+                                                        Delete
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>03-16-20</td>
+                                        <td>03-16-20</td>
+                                        <td>Instrument 01 </td>
+                                        <td>Jhonson Lab </td>
+                                        <td>All Session </td>
+                                        <td>All Lab Billing </td>
+                                        <td>All Roles </td>
+                                        <td>All Grants </td>
+                                        <td>03-16-20 </td>
+                                        <td>03-16-20 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td class="text-center">
+                                            <div class="dropdown ideal-littleBit-action">
+                                                <button type="button"
+                                                    class="btn btn-ideal-circle bg-theme-blue-alfa px-0 mx-auto py-0 dropdown-toggle"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="ni ni-more-v"></span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-edit-alt"></span>
+                                                        Edit Details
+                                                    </a>
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-trash"></span>
+                                                        Delete
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>03-16-20</td>
+                                        <td>03-16-20</td>
+                                        <td>Instrument 01 </td>
+                                        <td>Jhonson Lab </td>
+                                        <td>All Session </td>
+                                        <td>All Lab Billing </td>
+                                        <td>All Roles </td>
+                                        <td>All Grants </td>
+                                        <td>03-16-20 </td>
+                                        <td>03-16-20 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td class="text-center">
+                                            <div class="dropdown ideal-littleBit-action">
+                                                <button type="button"
+                                                    class="btn btn-ideal-circle bg-theme-blue-alfa px-0 mx-auto py-0 dropdown-toggle"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="ni ni-more-v"></span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-edit-alt"></span>
+                                                        Edit Details
+                                                    </a>
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-trash"></span>
+                                                        Delete
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>03-16-20</td>
+                                        <td>03-16-20</td>
+                                        <td>Instrument 01 </td>
+                                        <td>Jhonson Lab </td>
+                                        <td>All Session </td>
+                                        <td>All Lab Billing </td>
+                                        <td>All Roles </td>
+                                        <td>All Grants </td>
+                                        <td>03-16-20 </td>
+                                        <td>03-16-20 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td class="text-center">
+                                            <div class="dropdown ideal-littleBit-action">
+                                                <button type="button"
+                                                    class="btn btn-ideal-circle bg-theme-blue-alfa px-0 mx-auto py-0 dropdown-toggle"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="ni ni-more-v"></span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-edit-alt"></span>
+                                                        Edit Details
+                                                    </a>
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-trash"></span>
+                                                        Delete
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>03-16-20</td>
+                                        <td>03-16-20</td>
+                                        <td>Instrument 01 </td>
+                                        <td>Jhonson Lab </td>
+                                        <td>All Session </td>
+                                        <td>All Lab Billing </td>
+                                        <td>All Roles </td>
+                                        <td>All Grants </td>
+                                        <td>03-16-20 </td>
+                                        <td>03-16-20 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td class="text-center">
+                                            <div class="dropdown ideal-littleBit-action">
+                                                <button type="button"
+                                                    class="btn btn-ideal-circle bg-theme-blue-alfa px-0 mx-auto py-0 dropdown-toggle"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="ni ni-more-v"></span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-edit-alt"></span>
+                                                        Edit Details
+                                                    </a>
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-trash"></span>
+                                                        Delete
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>03-16-20</td>
+                                        <td>03-16-20</td>
+                                        <td>Instrument 01 </td>
+                                        <td>Jhonson Lab </td>
+                                        <td>All Session </td>
+                                        <td>All Lab Billing </td>
+                                        <td>All Roles </td>
+                                        <td>All Grants </td>
+                                        <td>03-16-20 </td>
+                                        <td>03-16-20 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td>$10.00 </td>
+                                        <td class="text-center">
+                                            <div class="dropdown ideal-littleBit-action">
+                                                <button type="button"
+                                                    class="btn btn-ideal-circle bg-theme-blue-alfa px-0 mx-auto py-0 dropdown-toggle"
+                                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    <span class="ni ni-more-v"></span>
+                                                </button>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-edit-alt"></span>
+                                                        Edit Details
+                                                    </a>
+                                                    <a class="dropdown-item" href="#">
+                                                        <span class="ni ni-trash"></span>
+                                                        Delete
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ usage-fee -->
+
+
+    </main>
+    <!-- dashboard -->
+
+
+
+    <!-- Main Coding End -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src='assets/js/select2.full.min.js'></script>
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

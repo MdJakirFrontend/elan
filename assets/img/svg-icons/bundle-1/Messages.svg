@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="57.448" height="42.385" viewBox="0 0 57.448 42.385">
+  <g id="Messages" transform="translate(0 0.573)">
+    <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+      <g id="Rectangle_1036" data-name="Rectangle 1036">
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="57" height="41" rx="20" transform="translate(0 0.333)" fill="none"/>
+        <rect id="Rectangle_2" data-name="Rectangle 2" width="55.435" height="40.385" rx="5" transform="translate(1.013 0.427)" fill="none" stroke="#000" stroke-width="2"/>
+      </g>
+      <path id="Path_475" data-name="Path 475" d="M8.9,9.27,30.008,31.655a6.112,6.112,0,0,0,9.223.123L61.275,9.27" transform="translate(-6.658 -7.521)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_476" data-name="Path 476" d="M7.3,105.995,26.344,88.08" transform="translate(-5.459 -66.562)" fill="none" stroke="#000" stroke-width="2"/>
+      <path id="Path_477" data-name="Path 477" d="M161.254,105.869,140.48,88.08" transform="translate(-105.233 -66.562)" fill="none" stroke="#000" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

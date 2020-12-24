@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
+<!--[if gte IE 9] <style type="text/css"> .gradient {filter: none;}</style><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Required meta tags for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Favicon and touch icons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <meta name="misapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="@twitter_username" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="R" />
+    <meta property="fb:admins" content="Facebook numeric ID" />
+    <!-- gmail verification -->
+    <meta name="google-site-verification" content="" />
+    <!-- Website title -->
+    <title>Reservation</title>
+    <link rel="stylesheet" href="assets/css/fonts-import.css" />
+    <link rel="stylesheet" href="assets/css/nioicon.css" />
+    <link rel="stylesheet" href="assets/css/normalize.min.css" />
+    <link rel="stylesheet" href="assets/css/select2.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- jQuery (necessary for jQuery plugins) -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <!-- Main Coding Start Here -->
+
+
+
+
+
+    <!-- navigation-sidebar -->
+    <aside id="navigation-sidebar">
+        <nav class="navbar-light">
+            <div class="navigation-sidebar-collapse text-left mt-3">
+                <ul class="navbar-nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="assets/img/filI-icons/dashboard.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="assets/img/filI-icons/schedule.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Scheduler</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="instrument.html">
+                            <img src="assets/img/filI-icons/lab-instrument.svg" alt=""
+                                class="nav-icon img-fluid mr-2" />
+                            <span>Instrument</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="supplies-order.html">
+                            <img src="assets/img/filI-icons/supplies.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Supplies</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reports.html">
+                            <img src="assets/img/filI-icons/reportIcon.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Reports</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="settings-labSetup.html">
+                            <img src="assets/img/filI-icons/settings.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="dashboard-current-user mt-2 pl-1">
+                    <div class="dropdown">
+                        <div class="btn btn-user-profile py-0 px-0 d-flex align-items-center text-left" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="assets/img/avatar.png" alt="" class="current-user-img img-fluid mr-2" />
+                            <h6 class="user-name mb-0">Mangesh</h6>
+                        </div>
+                        <div class="user-profile-dropdown-menu dropdown-menu">
+                            <div class="name-and-other-things py-2 px-4 border-bottom">
+                                <h6 class="user-name mb-0">Mangesh</h6>
+                                <p class="email mb-0"><small>mangesh@gmail.com</small></p>
+                            </div>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/svg-icons/bundle-2/User.svg" alt="" class="imgIcon img-fluid" />
+                                My Profile
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/menu-icons/Supplies.svg" alt="" class="imgIcon img-fluid" />
+                                My Supplies
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/reportsIcon.png" alt="" class="imgIcon img-fluid" />
+                                My Reports
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/my-request.svg" alt="" class="imgIcon img-fluid" />
+                                My Requests
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/calender-blue.png" alt="" class="imgIcon img-fluid" />
+                                My Reservation
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/technical-issue.svg" alt="" class="imgIcon img-fluid" />
+                                My Technical Issues
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/lab-instrument.svg" alt="" class="imgIcon img-fluid" />
+                                Favorite Instrument
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/favourite-request.svg" alt=""
+                                    class="imgIcon img-fluid" />
+                                Favorite Request Forms
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/startpage.svg" alt="" class="imgIcon img-fluid" />
+                                Make as Start Page
+                            </a>
+                            <a class="dropdown-item dropdown-sign-out bg-primary text-light" href="#">
+                                <span class="ni ni-signout"></span>
+                                Sign Out
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="sidebar-logo">
+            <a class="navbar-brand main-logo px-0 py-0 d-inline-block mx-auto" href="index.html">
+                <img src="assets/img/logo.png" alt="" class="img-fluid" />
+            </a>
+        </div>
+    </aside>
+    <!-- navigation-sidebar -->
+
+
+
+
+    <!-- header -->
+    <header class="header">
+        <div class="container-fluid px-3 px-md-3">
+            <div class="row align-items-center justify-content-between flex-nowrap">
+                <div class="col">
+                    <div class="header-left-inner d-flex align-items-center ml-1 ml-md-lg">
+                        <button class="btn px-0 py-0 sidebarToggle mr-1 mr-lg-3">
+                            <span class="ni ni-menu"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <a href="index.html" class="d-inline-block dashboard-logo">
+                        <img src="assets/img/dashboard-logo.png" alt="" class="d-inline-block img-fluid" />
+                    </a>
+                </div>
+                <div class="col">
+                    <ul class="header-nav-list list-unstyled d-flex align-items-center justify-content-end my-0">
+                        <li class="d-block d-lg-none">
+                            <div class="dropdown dropdownForFacility">
+                                <button class="btn btn-light rounded-circle border" type="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/img/chevron-down.png" alt="" class="img-fluid" />
+                                </button>
+                                <div class="dropdown-menu">
+                                    <select class="form-control select2-init-forFacility">
+                                        <option> Media Prep (MPRP)</option>
+                                        <option> Media Prep</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="d-none d-lg-block mr-2">
+                            <select class="form-control select2-init-forFacility">
+                                <option> Media Prep (MPRP)</option>
+                                <option> Media Prep</option>
+                            </select>
+                        </li>
+                        <li>
+                            <ul class="list-unstyled header-nav-inner-list d-flex align-items-center">
+                                <li class="mr-1">
+                                    <div class="dropdown">
+                                        <button
+                                            class="btn badgeWrapper dropdown-toggle d-flex align-items-center text-left"
+                                            type="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <img src="assets/img/filI-icons/notification.svg" alt=""
+                                                class="img-fluid" />
+                                            <span class="badge badge-secondary">9</span>
+                                        </button>
+                                        <div class="notification-dropdown-menu dropdown-menu-panel dropdown-menu">
+                                            <div class="dropdown-menu-panel-head border-bottom py-4 text-center">
+                                                <h5 class="dropdown-menu-panel-head-title text-blue">Notification
+                                                </h5>
+                                            </div>
+                                            <ul class="dropdown-list-group list-group list-group-flush">
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-red.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Password change</h6>
+                                                            <p class="mb-0">Your password has been changed</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-yellow.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Login in</h6>
+                                                            <p class="mb-0">Your account logged in an unknown device
+                                                                from "USA"</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/plus-circle-green.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Lab</h6>
+                                                            <p class="mb-0">New lab added in list</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-red.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Password change</h6>
+                                                            <p class="mb-0">Your password has been changed</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-yellow.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Login in</h6>
+                                                            <p class="mb-0">Your account logged in an unknown device
+                                                                from "USA"</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/plus-circle-green.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Lab</h6>
+                                                            <p class="mb-0">New lab added in list</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="dropdown-menu-panel-head border-top py-4 text-center">
+                                                <a href="#" class="dropdown-menu-panel-head-title see-all">
+                                                    See All &nbsp; <i class="ni ni-arrow-long-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <button
+                                            class="btn badgeWrapper dropdown-toggle d-flex align-items-center text-left"
+                                            type="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <img src="assets/img/filI-icons/chat.svg" alt=""
+                                                class="img-fluid" />
+                                            <span class="badge badge-secondary">5</span>
+                                        </button>
+                                        <div class="notification-dropdown-menu dropdown-menu-panel dropdown-menu">
+                                            <div
+                                                class="dropdown-menu-panel-head border-bottom py-4 px-4 d-flex align-items-center justify-content-between">
+                                                <h5 class="dropdown-menu-panel-head-title text-blue">Message</h5>
+                                                <span class="mb-0">All Mark As Read</span>
+                                            </div>
+                                            <ul class="dropdown-list-group list-group list-group-flush">
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Alex.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Alex Smith</h6>
+                                                            <p class="mb-0">Hi! I am Alex. Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Alberto.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Alberto Tolbert</h6>
+                                                            <p class="mb-0">Hi! I am Alberto J. Tolbert. Nice to
+                                                                meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Muriel.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Muriel Frye</h6>
+                                                            <p class="mb-0">Hi! I am Muriel Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Maria.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Maria Mitchell</h6>
+                                                            <p class="mb-0">Hi! I am Maria Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Charles.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Charles Credle</h6>
+                                                            <p class="mb-0">Hi! I am Charles Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Kenna.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Kenna McPherson</h6>
+                                                            <p class="mb-0">Hi! I am Kenna Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Ricky.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Ricky Ward</h6>
+                                                            <p class="mb-0">Hi! I am Ricky Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="dropdown-menu-panel-head border-top py-4 text-center">
+                                                <a href="#" class="dropdown-menu-panel-head-title see-all">
+                                                    See All &nbsp; <i class="ni ni-arrow-long-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+
+
+
+
+    <!-- dashboard -->
+    <main id="dashboard">
+
+        <!-- manual-breadcrumb -->
+        <div class="manual-breadcrumb py-2 mx-3 mx-md-3">
+            <div class="container-fluid px-0">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-5">
+                        <header class="ideal-card-header d-flex align-items-center justify-content-between">
+                            <h4 class="ideal-card-header-title d-flex align-items-center mb-0">
+                                <img src="assets/img/reservation-with-bg.png" alt="" class="img-fluid mr-3" />
+                                Reservation
+                            </h4>
+                        </header>
+                    </div>
+                    <div class="col-xl-6 col-lg-7">
+                        <div class="tableTop-actions d-flex align-items-center justify-content-lg-end">
+                            <div class="reservation-tableTop-actions">
+                                <button type="button" class="btn btn-ideal bg-theme-blue text-light px-3"
+                                    data-toggle="modal" data-target="#reservation-add-modal">
+                                    Add Reservation
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ manual-breadcrumb -->
+
+
+
+
+        <!-- modalInit -->
+        <figure class="reservationModals modalInit mx-0 py-0">
+            <div class="modal fade" id="reservation-add-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content border-0">
+                        <header
+                            class="ideal-card-header bg-theme-blue d-flex align-items-center justify-content-between px-3 py-2">
+                            <h4 class="ideal-card-header-title text-light d-flex align-items-center mb-0">
+                                <img src="assets/img/create-reservation-with-bg.png" alt="" class="img-fluid mr-2" />
+                                Create Reservation
+                            </h4>
+                            <button type="button" class="btn" data-dismiss="modal" aria-label="Close">
+                                <span class="ni ni-cross text-light"></span>
+                            </button>
+                        </header>
+                        <div class="modal-body px-4">
+                            <ul class="nav nav-tabs reservation-tabs " role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link active" data-toggle="tab" href="#schedule" role="tab"
+                                        aria-controls="home" aria-selected="true">
+                                        <img src="assets/img/schedule.png" alt="" class="img-fluid mr-2" />
+                                        Schedule
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" data-toggle="tab" href="#email-user" role="tab"
+                                        aria-controls="profile" aria-selected="false">
+                                        <img src="assets/img/email.png" alt="" class="img-fluid mr-2" />
+                                        Email User
+                                    </a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" data-toggle="tab" href="#rules-policy" role="tab"
+                                        aria-controls="contact" aria-selected="false">
+                                        <img src="assets/img/rules.png" alt="" class="img-fluid mr-2" />
+                                        Rules Policy
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="tab-content reservation-tabs-content pt-4">
+                                <div class="tab-pane fade show active" id="schedule" role="tabpanel">
+                                    <form action="#" method="POST">
+                                        <div class="row">
+                                            <div class="col-xl-12">
+                                                <div class="form-group">
+                                                    <div class="checkbox-wrapper">
+                                                        <label>
+                                                            <div class="checkbok-input-group d-flex align-items-center">
+                                                                <input type="checkbox" class="checkbox"
+                                                                    name="checkbok-1" />
+                                                                <span class="check-icon mr-2"></span>
+                                                                Down Time
+                                                            </div>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="form-group">
+                                                    <label>Subject*</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="Enter Subject" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="form-group">
+                                                    <label>User*</label>
+                                                    <input type="text" class="form-control" placeholder="User" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="form-group">
+                                                    <label>Start Time*</label>
+                                                    <input type="date" class="form-control" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="form-group">
+                                                    <label>End Time*</label>
+                                                    <input type="date" class="form-control" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="form-group">
+                                                    <label>Lab*</label>
+                                                    <select class="form-control select-control">
+                                                        <option value="1" selected>Lab - 1</option>
+                                                        <option value="2">Lab - 2 </option>
+                                                        <option value="3">Lab - 3 </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="form-group">
+                                                    <label>Session Type *</label>
+                                                    <select class="form-control select-control">
+                                                        <option value="1" selected>Training </option>
+                                                        <option value="2">Exception - 1</option>
+                                                        <option value="3">Exception - 2</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="form-group">
+                                                    <label>Account Code*</label>
+                                                    <div class="clone-data account-code-row">
+                                                        <div class="account-code-grid-item">
+                                                            <div class="form-group">
+                                                                <select class="form-control select-control">
+                                                                    <option value="1" selected>232 </option>
+                                                                    <option value="2">8945</option>
+                                                                    <option value="3">9871</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="account-code-grid-item">
+                                                            <div class="form-group">
+                                                                <input type="number" class="form-control" value="50" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="account-code-grid-item">
+                                                            <div class="form-group">
+                                                                <div class="button-group btn-clone-group">
+                                                                    <button type="button"
+                                                                        class="btn btn-plus-circle mr-3 btn-addMore">
+                                                                        <i class="ni ni-plus"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="clone-body"> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="form-group">
+                                                    <label for="recurrence" class="d-inline-flex align-items-center">
+                                                        <span class="switch mr-3">
+                                                            <input type="checkbox" id="recurrence">
+                                                            <span class="slider round"></span>
+                                                        </span>
+                                                        Recurrence
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row recurrence-wrap" style="display:none">
+                                            <div class="col-xl-7">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="form-group">
+                                                            <label> &nbsp; </label>
+                                                            <select class="form-control select-control">
+                                                                <option value="1" selected>Daily </option>
+                                                                <option value="2" selected>Daily </option>
+                                                                <option value="3" selected>Daily </option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group">
+                                                            <label>Number Of Respects*</label>
+                                                            <input type="number" class="form-control" value="10" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-5">
+                                                <div class="form-group">
+                                                    <label>End Time*</label>
+                                                    <input type="date" class="form-control" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="email-user" role="tabpanel">
+                                    email-user
+                                </div>
+                                <div class="tab-pane fade" id="rules-policy" role="tabpanel">
+                                    rules-policy
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer border-0">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </figure>
+        <!--/ modalInit -->
+
+
+
+
+        <!-- reservation -->
+        <!-- <section class="reservation mx-3 mx-md-3">
+            <div class="ideal-card bg-white rounded pb-3 mb-3">
+                <header
+                    class="ideal-card-header border-bottom d-flex align-items-center justify-content-between px-4 py-3 mb-3">
+                    <h4 class="ideal-card-header-title d-flex align-items-center mb-0">
+                        <img src="assets/img/reservation-with-bg.png" alt="" class="img-fluid mr-3" />
+                        Reservation
+                    </h4>
+                    <div class="reservation-tableTop-actions">
+                        <button type="button" class="btn btn-ideal bg-theme-blue text-light px-3" data-toggle="modal"
+                            data-target="#reservation-add-modal">
+                            Add Reservation
+                        </button>
+                    </div>
+                </header>
+                <div class="ideal-card-body px-4">
+                </div>
+            </div>
+        </section> -->
+        <!--/ reservation -->
+
+
+    </main>
+    <!-- dashboard -->
+
+
+
+    <!-- Main Coding End -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src='assets/js/select2.full.min.js'></script>
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

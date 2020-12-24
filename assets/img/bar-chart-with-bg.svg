@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Group_7518" data-name="Group 7518" transform="translate(-232 -351)">
+    <circle id="Ellipse_789" data-name="Ellipse 789" cx="18" cy="18" r="18" transform="translate(232 351)" fill="#4286f4" opacity="0.2"/>
+    <g id="bar-chart" transform="translate(240 358.95)">
+      <g id="Group_7417" data-name="Group 7417" transform="translate(1.715 0.05)">
+        <g id="Group_7416" data-name="Group 7416" transform="translate(0 0)">
+          <path id="Path_426" data-name="Path 426" d="M42.942.05A.342.342,0,0,0,42.6.392V20.143a.342.342,0,0,0,.684,0V.392A.342.342,0,0,0,42.942.05Z" transform="translate(-42.6 -0.05)" fill="#4286f4"/>
+        </g>
+      </g>
+      <g id="Group_7419" data-name="Group 7419" transform="translate(0 18.086)">
+        <g id="Group_7418" data-name="Group 7418">
+          <path id="Path_427" data-name="Path 427" d="M20.1,448.05H.342a.342.342,0,0,0,0,.684H20.093a.345.345,0,0,0,.346-.342A.342.342,0,0,0,20.1,448.05Z" transform="translate(0 -448.05)" fill="#4286f4"/>
+        </g>
+      </g>
+      <g id="Group_7421" data-name="Group 7421" transform="translate(4.203 7.691)">
+        <g id="Group_7420" data-name="Group 7420">
+          <path id="Path_428" data-name="Path 428" d="M107.407,189.85h-2.577a.431.431,0,0,0-.431.431v7.73a.431.431,0,0,0,.431.431h2.577a.431.431,0,0,0,.431-.431v-7.73A.431.431,0,0,0,107.407,189.85Z" transform="translate(-104.4 -189.85)" fill="#4286f4"/>
+        </g>
+      </g>
+      <g id="Group_7423" data-name="Group 7423" transform="translate(14.509 5.115)">
+        <g id="Group_7422" data-name="Group 7422">
+          <path id="Path_429" data-name="Path 429" d="M363.407,125.85h-2.577a.431.431,0,0,0-.431.431v10.306a.431.431,0,0,0,.431.431h2.577a.431.431,0,0,0,.431-.431V126.281A.431.431,0,0,0,363.407,125.85Z" transform="translate(-360.4 -125.85)" fill="#4286f4"/>
+        </g>
+      </g>
+      <g id="Group_7425" data-name="Group 7425" transform="translate(9.356 0.819)">
+        <g id="Group_7424" data-name="Group 7424">
+          <path id="Path_430" data-name="Path 430" d="M235.407,19.15h-2.577a.431.431,0,0,0-.431.431v14.6a.431.431,0,0,0,.431.431h2.577a.431.431,0,0,0,.431-.431v-14.6A.431.431,0,0,0,235.407,19.15Z" transform="translate(-232.4 -19.15)" fill="#4286f4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

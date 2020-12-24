@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
+<!--[if gte IE 9] <style type="text/css"> .gradient {filter: none;}</style><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Required meta tags for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Favicon and touch icons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <meta name="misapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="@twitter_username" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="R" />
+    <meta property="fb:admins" content="Facebook numeric ID" />
+    <!-- gmail verification -->
+    <meta name="google-site-verification" content="" />
+    <!-- Website title -->
+    <title>Invoice Details</title>
+    <link rel="stylesheet" href="assets/css/fonts-import.css" />
+    <link rel="stylesheet" href="assets/css/nioicon.css" />
+    <link rel="stylesheet" href="assets/css/normalize.min.css" />
+    <link rel="stylesheet" href="assets/css/select2.min.css" />
+    <link rel="stylesheet" href="assets/css/jquery-steps.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- jQuery (necessary for jQuery plugins) -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <!-- Main Coding Start Here -->
+
+
+
+    <!-- navigation-sidebar -->
+    <aside id="navigation-sidebar">
+        <nav class="navbar-light">
+            <div class="navigation-sidebar-collapse text-left mt-3">
+                <ul class="navbar-nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="assets/img/filI-icons/dashboard.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="assets/img/filI-icons/schedule.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Scheduler</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="instrument.html">
+                            <img src="assets/img/filI-icons/lab-instrument.svg" alt=""
+                                class="nav-icon img-fluid mr-2" />
+                            <span>Instrument</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="supplies-order.html">
+                            <img src="assets/img/filI-icons/supplies.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Supplies</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reports.html">
+                            <img src="assets/img/filI-icons/reportIcon.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Reports</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="settings-labSetup.html">
+                            <img src="assets/img/filI-icons/settings.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="dashboard-current-user mt-2 pl-1">
+                    <div class="dropdown">
+                        <div class="btn btn-user-profile py-0 px-0 d-flex align-items-center text-left" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="assets/img/avatar.png" alt="" class="current-user-img img-fluid mr-2" />
+                            <h6 class="user-name mb-0">Mangesh</h6>
+                        </div>
+                        <div class="user-profile-dropdown-menu dropdown-menu">
+                            <div class="name-and-other-things py-2 px-4 border-bottom">
+                                <h6 class="user-name mb-0">Mangesh</h6>
+                                <p class="email mb-0"><small>mangesh@gmail.com</small></p>
+                            </div>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/svg-icons/bundle-2/User.svg" alt="" class="imgIcon img-fluid" />
+                                My Profile
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/menu-icons/Supplies.svg" alt="" class="imgIcon img-fluid" />
+                                My Supplies
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/reportsIcon.png" alt="" class="imgIcon img-fluid" />
+                                My Reports
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/my-request.svg" alt="" class="imgIcon img-fluid" />
+                                My Requests
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/calender-blue.png" alt="" class="imgIcon img-fluid" />
+                                My Reservation
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/technical-issue.svg" alt="" class="imgIcon img-fluid" />
+                                My Technical Issues
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/lab-instrument.svg" alt="" class="imgIcon img-fluid" />
+                                Favorite Instrument
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/favourite-request.svg" alt=""
+                                    class="imgIcon img-fluid" />
+                                Favorite Request Forms
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/startpage.svg" alt="" class="imgIcon img-fluid" />
+                                Make as Start Page
+                            </a>
+                            <a class="dropdown-item dropdown-sign-out bg-primary text-light" href="#">
+                                <span class="ni ni-signout"></span>
+                                Sign Out
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="sidebar-logo">
+            <a class="navbar-brand main-logo px-0 py-0 d-inline-block mx-auto" href="index.html">
+                <img src="assets/img/logo.png" alt="" class="img-fluid" />
+            </a>
+        </div>
+    </aside>
+    <!-- navigation-sidebar -->
+
+
+
+
+    <!-- header -->
+    <header class="header">
+        <div class="container-fluid px-3 px-md-3">
+            <div class="row align-items-center justify-content-between flex-nowrap">
+                <div class="col">
+                    <div class="header-left-inner d-flex align-items-center ml-1 ml-md-lg">
+                        <button class="btn px-0 py-0 sidebarToggle mr-1 mr-lg-3">
+                            <span class="ni ni-menu"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <a href="index.html" class="d-inline-block dashboard-logo">
+                        <img src="assets/img/dashboard-logo.png" alt="" class="d-inline-block img-fluid" />
+                    </a>
+                </div>
+                <div class="col">
+                    <ul class="header-nav-list list-unstyled d-flex align-items-center justify-content-end my-0">
+                        <li class="d-block d-lg-none">
+                            <div class="dropdown dropdownForFacility">
+                                <button class="btn btn-light rounded-circle border" type="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/img/chevron-down.png" alt="" class="img-fluid" />
+                                </button>
+                                <div class="dropdown-menu">
+                                    <select class="form-control select2-init-forFacility">
+                                        <option> Media Prep (MPRP)</option>
+                                        <option> Media Prep</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="d-none d-lg-block mr-2">
+                            <select class="form-control select2-init-forFacility">
+                                <option> Media Prep (MPRP)</option>
+                                <option> Media Prep</option>
+                            </select>
+                        </li>
+                        <li>
+                            <ul class="list-unstyled header-nav-inner-list d-flex align-items-center">
+                                <li class="mr-1">
+                                    <div class="dropdown">
+                                        <button
+                                            class="btn badgeWrapper dropdown-toggle d-flex align-items-center text-left"
+                                            type="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <img src="assets/img/filI-icons/notification.svg" alt=""
+                                                class="img-fluid" />
+                                            <span class="badge badge-secondary">9</span>
+                                        </button>
+                                        <div class="notification-dropdown-menu dropdown-menu-panel dropdown-menu">
+                                            <div class="dropdown-menu-panel-head border-bottom py-4 text-center">
+                                                <h5 class="dropdown-menu-panel-head-title text-blue">Notification
+                                                </h5>
+                                            </div>
+                                            <ul class="dropdown-list-group list-group list-group-flush">
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-red.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Password change</h6>
+                                                            <p class="mb-0">Your password has been changed</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-yellow.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Login in</h6>
+                                                            <p class="mb-0">Your account logged in an unknown device
+                                                                from "USA"</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/plus-circle-green.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Lab</h6>
+                                                            <p class="mb-0">New lab added in list</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-red.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Password change</h6>
+                                                            <p class="mb-0">Your password has been changed</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-yellow.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Login in</h6>
+                                                            <p class="mb-0">Your account logged in an unknown device
+                                                                from "USA"</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/plus-circle-green.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Lab</h6>
+                                                            <p class="mb-0">New lab added in list</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="dropdown-menu-panel-head border-top py-4 text-center">
+                                                <a href="#" class="dropdown-menu-panel-head-title see-all">
+                                                    See All &nbsp; <i class="ni ni-arrow-long-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <button
+                                            class="btn badgeWrapper dropdown-toggle d-flex align-items-center text-left"
+                                            type="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <img src="assets/img/filI-icons/chat.svg" alt="" class="img-fluid" />
+                                            <span class="badge badge-secondary">5</span>
+                                        </button>
+                                        <div class="notification-dropdown-menu dropdown-menu-panel dropdown-menu">
+                                            <div
+                                                class="dropdown-menu-panel-head border-bottom py-4 px-4 d-flex align-items-center justify-content-between">
+                                                <h5 class="dropdown-menu-panel-head-title text-blue">Message</h5>
+                                                <span class="mb-0">All Mark As Read</span>
+                                            </div>
+                                            <ul class="dropdown-list-group list-group list-group-flush">
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Alex.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Alex Smith</h6>
+                                                            <p class="mb-0">Hi! I am Alex. Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Alberto.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Alberto Tolbert</h6>
+                                                            <p class="mb-0">Hi! I am Alberto J. Tolbert. Nice to
+                                                                meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Muriel.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Muriel Frye</h6>
+                                                            <p class="mb-0">Hi! I am Muriel Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Maria.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Maria Mitchell</h6>
+                                                            <p class="mb-0">Hi! I am Maria Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Charles.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Charles Credle</h6>
+                                                            <p class="mb-0">Hi! I am Charles Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Kenna.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Kenna McPherson</h6>
+                                                            <p class="mb-0">Hi! I am Kenna Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Ricky.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Ricky Ward</h6>
+                                                            <p class="mb-0">Hi! I am Ricky Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="dropdown-menu-panel-head border-top py-4 text-center">
+                                                <a href="#" class="dropdown-menu-panel-head-title see-all">
+                                                    See All &nbsp; <i class="ni ni-arrow-long-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+
+
+
+
+    <!-- dashboard -->
+    <main id="dashboard">
+
+        <!-- invoice-details -->
+        <section class="invoice-details mx-3 mx-md-3 py-2">
+            <div class="ideal-card rounded pb-3 mb-3">
+                <header class="ideal-card-header d-sm-flex align-items-center justify-content-between mb-3">
+                    <h4 class="ideal-card-header-title d-flex align-items-center mb-0">
+                        <img src="assets/img/invoice-details-with-bg.svg" alt="" class="img-fluid mr-3" />
+                        Invoice Details
+                    </h4>
+                </header>
+                <div class="ideal-card-body">
+                    <div class="step-app" id="steps-wizard">
+                        <ul id="step-steps" class="step-steps justify-content-between">
+                            <li data-step-target="step1">
+                                <span class="stepIcon">
+                                    <img src="assets/img/start-up.svg" alt="" class="img-fluid" />
+                                </span>
+                                <p class="mb-0 step-text"> Generate </p>
+                                <span class="border-line"></span>
+                            </li>
+                            <li data-step-target="step2">
+                                <span class="stepIcon">
+                                    <img src="assets/img/delivery-note.svg" alt="" class="img-fluid" />
+                                </span>
+                                <p class="mb-0 step-text"> Dispatched </p>
+                                <span class="border-line"></span>
+                            </li>
+                            <li data-step-target="step3">
+                                <span class="stepIcon">
+                                    <img src="assets/img/inreview.svg" alt="" class="img-fluid" />
+                                </span>
+                                <p class="mb-0 step-text"> In Review </p>
+                                <span class="border-line"></span>
+                            </li>
+                            <li data-step-target="step4">
+                                <span class="stepIcon">
+                                    <img src="assets/img/approval-symbol-in-badge.svg" alt="" class="img-fluid" />
+                                </span>
+                                <p class="mb-0 step-text"> Approved </p>
+                                <span class="border-line"></span>
+                            </li>
+                            <li data-step-target="step5">
+                                <span class="stepIcon">
+                                    <img src="assets/img/income.svg" alt="" class="img-fluid" />
+                                </span>
+                                <p class="mb-0 step-text"> Payment </p>
+                            </li>
+                        </ul>
+                        <div class="step-content border-0 px-0 pt-4">
+                            <div class="step-tab-panel" data-step="step1">
+                                <div class="ideal-card is-shadow bg-white rounded mb-3 collapsed-group">
+                                    <header
+                                        class="ideal-card-header border-bottom d-flex align-items-center justify-content-between py-3 px-3">
+                                        <h4 class="ideal-card-header-title d-flex align-items-center mb-0">
+                                            <img src="assets/img/transaction-with-bg.svg" alt=""
+                                                class="img-fluid mr-3" />
+                                            Transaction
+                                            <button type="button"
+                                                class="btn btn-primary btn-sm btnCollapsedToggle open ml-3 rounded w-auto">
+                                                <img src="assets/img/collapse-two-arrows-diagonal-symbol.svg" alt=""
+                                                    class="img-fluid mr-1 expandArrow collapseIcon" />
+                                                <img src="assets/img/expand.svg" alt=""
+                                                    class="img-fluid mr-1 expandArrow expandIcon" />
+                                                <p class="btnCollapsedToggle-text mb-0">Collapsed</p>
+                                            </button>
+                                        </h4>
+                                        <div class="card-header-right">
+                                            <div class="tableTop-actions d-flex align-items-center">
+                                                <input type="text"
+                                                    class="form-control search-control instantSearch ml-lg-auto"
+                                                    placeholder="Search here..." />
+                                                <button type="button"
+                                                    class="btn btn-ideal bg-theme-blue text-light px-3">
+                                                    Add New
+                                                </button>
+                                                <div class="dropdown ideal-littleBit-action">
+                                                    <button type="button"
+                                                        class="btn btn-ideal-circle bg-theme-blue-alfa px-0 ml-auto py-0 dropdown-toggle"
+                                                        data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
+                                                        <span class="ni ni-more-v"></span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                                            <img src="assets/img/svg-icons/bundle-3/export-excel.svg"
+                                                                alt="" class="imgIcon img-fluid mr-2" />
+                                                            Export To Excel
+                                                        </a>
+                                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                                            <img src="assets/img/svg-icons/bundle-3/export-pdf.svg"
+                                                                alt="" class="imgIcon img-fluid mr-2" />
+                                                            Export To Pdf
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </header>
+                                    <div class="ideal-card-body px-3 collapsed-item">
+                                        <div class="row change-account-code pt-4">
+                                            <div class="col-2">
+                                                <div class="form-group">
+                                                    <label>Change Account Code</label>
+                                                    <select class="form-control select-control">
+                                                        <option value="1">Account Code</option>
+                                                        <option value="2">Account Code</option>
+                                                        <option value="2">Account Code</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-2">
+                                                <div class="form-group">
+                                                    <label> &nbsp; </label>
+                                                    <div class="update-btn">
+                                                        <button type="button"
+                                                            class="btn btn-ideal bg-theme-blue text-light px-4">
+                                                            Updates
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="transaction-details elegant-table">
+                                            <div class="table-body table-responsive">
+                                                <table class="table table-hover table-borderless">
+                                                    <thead class="thead-dark">
+                                                        <tr>
+                                                            <th scope="col">Status</th>
+                                                            <th scope="col">User</th>
+                                                            <th scope="col">Account Code</th>
+                                                            <th scope="col">Service Type</th>
+                                                            <th scope="col">Name</th>
+                                                            <th scope="col">Date</th>
+                                                            <th scope="col">Description</th>
+                                                            <th scope="col">Quantity</th>
+                                                            <th scope="col">Rate</th>
+                                                            <th scope="col">Total</th>
+                                                            <th class="text-center" scope="col">Actions</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td class="text-nowrap">
+                                                                <span class="badge bg-primary px-1 py-1 mr-1"> </span>
+                                                                Accepted
+                                                            </td>
+                                                            <td class="text-nowrap"> Zabner Joseph </td>
+                                                            <td class="text-nowrap">32541</td>
+                                                            <td class="text-nowrap">Supervised Session</td>
+                                                            <td class="text-nowrap">Leica</td>
+                                                            <td class="text-nowrap">03-13-20</td>
+                                                            <td class="text-nowrap">Session</td>
+                                                            <td class="text-nowrap">4</td>
+                                                            <td class="text-nowrap">
+                                                                <p class="mb-0">12:00 AM To 12:00 PM</p>
+                                                                <p class="mb-0">100.00 price per Hour</p>
+                                                            </td>
+                                                            <td class="text-nowrap">200</td>
+                                                            <td class="text-center">
+                                                                <button type="button"
+                                                                    class="btn btn-ideal-circle bg-theme-blue-alfa btn-edit mx-auto">
+                                                                    <span class="ni ni-edit-fill"></span>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-nowrap">
+                                                                <span class="badge bg-danger px-1 py-1 mr-1"> </span>
+                                                                Rejected
+                                                            </td>
+                                                            <td class="text-nowrap"> Zabner Joseph </td>
+                                                            <td class="text-nowrap">32541</td>
+                                                            <td class="text-nowrap">Supervised Session</td>
+                                                            <td class="text-nowrap">Leica</td>
+                                                            <td class="text-nowrap">03-13-20</td>
+                                                            <td class="text-nowrap">Session</td>
+                                                            <td class="text-nowrap">4</td>
+                                                            <td class="text-nowrap">
+                                                                <p class="mb-0">12:00 AM To 12:00 PM</p>
+                                                                <p class="mb-0">100.00 price per Hour</p>
+                                                            </td>
+                                                            <td class="text-nowrap">200</td>
+                                                            <td class="text-center">
+                                                                <button type="button"
+                                                                    class="btn btn-ideal-circle bg-theme-blue-alfa btn-edit mx-auto">
+                                                                    <span class="ni ni-edit-fill"></span>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-nowrap">
+                                                                <span class="badge bg-primary px-1 py-1 mr-1"> </span>
+                                                                Accepted
+                                                            </td>
+                                                            <td class="text-nowrap"> Zabner Joseph </td>
+                                                            <td class="text-nowrap">32541</td>
+                                                            <td class="text-nowrap">Supervised Session</td>
+                                                            <td class="text-nowrap">Leica</td>
+                                                            <td class="text-nowrap">03-13-20</td>
+                                                            <td class="text-nowrap">Session</td>
+                                                            <td class="text-nowrap">4</td>
+                                                            <td class="text-nowrap">
+                                                                <p class="mb-0">12:00 AM To 12:00 PM</p>
+                                                                <p class="mb-0">100.00 price per Hour</p>
+                                                            </td>
+                                                            <td class="text-nowrap">200</td>
+                                                            <td class="text-center">
+                                                                <button type="button"
+                                                                    class="btn btn-ideal-circle bg-theme-blue-alfa btn-edit mx-auto">
+                                                                    <span class="ni ni-edit-fill"></span>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-nowrap">
+                                                                <span class="badge bg-danger px-1 py-1 mr-1"> </span>
+                                                                Rejected
+                                                            </td>
+                                                            <td class="text-nowrap"> Zabner Joseph </td>
+                                                            <td class="text-nowrap">32541</td>
+                                                            <td class="text-nowrap">Supervised Session</td>
+                                                            <td class="text-nowrap">Leica</td>
+                                                            <td class="text-nowrap">03-13-20</td>
+                                                            <td class="text-nowrap">Session</td>
+                                                            <td class="text-nowrap">4</td>
+                                                            <td class="text-nowrap">
+                                                                <p class="mb-0">12:00 AM To 12:00 PM</p>
+                                                                <p class="mb-0">100.00 price per Hour</p>
+                                                            </td>
+                                                            <td class="text-nowrap">200</td>
+                                                            <td class="text-center">
+                                                                <button type="button"
+                                                                    class="btn btn-ideal-circle bg-theme-blue-alfa btn-edit mx-auto">
+                                                                    <span class="ni ni-edit-fill"></span>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-nowrap">
+                                                                <span class="badge bg-primary px-1 py-1 mr-1"> </span>
+                                                                Accepted
+                                                            </td>
+                                                            <td class="text-nowrap"> Zabner Joseph </td>
+                                                            <td class="text-nowrap">32541</td>
+                                                            <td class="text-nowrap">Supervised Session</td>
+                                                            <td class="text-nowrap">Leica</td>
+                                                            <td class="text-nowrap">03-13-20</td>
+                                                            <td class="text-nowrap">Session</td>
+                                                            <td class="text-nowrap">4</td>
+                                                            <td class="text-nowrap">
+                                                                <p class="mb-0">12:00 AM To 12:00 PM</p>
+                                                                <p class="mb-0">100.00 price per Hour</p>
+                                                            </td>
+                                                            <td class="text-nowrap">200</td>
+                                                            <td class="text-center">
+                                                                <button type="button"
+                                                                    class="btn btn-ideal-circle bg-theme-blue-alfa btn-edit mx-auto">
+                                                                    <span class="ni ni-edit-fill"></span>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="text-nowrap">
+                                                                <span class="badge bg-danger px-1 py-1 mr-1"> </span>
+                                                                Rejected
+                                                            </td>
+                                                            <td class="text-nowrap"> Zabner Joseph </td>
+                                                            <td class="text-nowrap">32541</td>
+                                                            <td class="text-nowrap">Supervised Session</td>
+                                                            <td class="text-nowrap">Leica</td>
+                                                            <td class="text-nowrap">03-13-20</td>
+                                                            <td class="text-nowrap">Session</td>
+                                                            <td class="text-nowrap">4</td>
+                                                            <td class="text-nowrap">
+                                                                <p class="mb-0">12:00 AM To 12:00 PM</p>
+                                                                <p class="mb-0">100.00 price per Hour</p>
+                                                            </td>
+                                                            <td class="text-nowrap">200</td>
+                                                            <td class="text-center">
+                                                                <button type="button"
+                                                                    class="btn btn-ideal-circle bg-theme-blue-alfa btn-edit mx-auto">
+                                                                    <span class="ni ni-edit-fill"></span>
+                                                                </button>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ideal-card is-shadow bg-white rounded mb-3 collapsed-group">
+                                    <header
+                                        class="ideal-card-header border-bottom d-flex align-items-center justify-content-between py-3 px-3">
+                                        <h4 class="ideal-card-header-title d-flex align-items-center mb-0">
+                                            <img src="assets/img/invoice-status-with-bg.svg" alt=""
+                                                class="img-fluid mr-3" />
+                                            Invoice Status
+                                            <button type="button"
+                                                class="btn btn-primary btn-sm btnCollapsedToggle ml-3 rounded w-auto">
+                                                <img src="assets/img/collapse-two-arrows-diagonal-symbol.svg" alt=""
+                                                    class="img-fluid mr-1 expandArrow collapseIcon" />
+                                                <img src="assets/img/expand.svg" alt=""
+                                                    class="img-fluid mr-1 expandArrow expandIcon" />
+                                                <p class="btnCollapsedToggle-text mb-0">Expand</p>
+                                            </button>
+                                        </h4>
+                                    </header>
+                                    <div class="ideal-card-body px-3 collapsed-item" style="display: none">
+                                        <div class="py-4">
+                                            <div class="status-view">
+                                                <p> Status : <span
+                                                        class="badge py-2 px-3 text-dark ml-2"><strong>Generated</strong></span>
+                                                </p>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="personal-note">Personal Note:</label>
+                                                <textarea class="form-control" id="personal-note" rows="8"
+                                                    placeholder="Write here..."></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ideal-card is-shadow bg-white rounded mb-3 collapsed-group">
+                                    <header
+                                        class="ideal-card-header border-bottom d-flex align-items-center justify-content-between py-3 px-3">
+                                        <h4 class="ideal-card-header-title d-flex align-items-center mb-0">
+                                            <img src="assets/img/invoice-details-with-bg.svg" alt=""
+                                                class="img-fluid mr-3" />
+                                            Invoice Details
+                                            <button type="button"
+                                                class="btn btn-primary btn-sm btnCollapsedToggle ml-3 rounded w-auto">
+                                                <img src="assets/img/collapse-two-arrows-diagonal-symbol.svg" alt=""
+                                                    class="img-fluid mr-1 expandArrow collapseIcon" />
+                                                <img src="assets/img/expand.svg" alt=""
+                                                    class="img-fluid mr-1 expandArrow expandIcon" />
+                                                <p class="btnCollapsedToggle-text mb-0">Expand</p>
+                                            </button>
+                                        </h4>
+                                    </header>
+                                    <div class="ideal-card-body px-3 collapsed-item" style="display: none">
+                                        <form class="py-4">
+                                            <div class="form-group row align-items-center mb-1">
+                                                <label for="staticEmail" class="col-sm-2 col-form-label mb-0">
+                                                    Invoice Number :
+                                                </label>
+                                                <div class="col-sm-10 ">
+                                                    <p class="mb-0"> Test 12-12-2020 - A nikon. imaging center 40</p>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row align-items-center mb-1">
+                                                <label for="staticEmail" class="col-sm-2 col-form-label mb-0">
+                                                    Lab Name :
+                                                </label>
+                                                <div class="col-sm-10 ">
+                                                    <p class="mb-0">A nikon. imaging center</p>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row align-items-center mb-1">
+                                                <label for="staticEmail" class="col-sm-2 col-form-label mb-0">
+                                                    From Date :
+                                                </label>
+                                                <div class="col-sm-10 ">
+                                                    <p class="mb-0"> 01-01-2020 </p>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row align-items-center mb-1">
+                                                <label for="staticEmail" class="col-sm-2 col-form-label mb-0">
+                                                    To Date :
+                                                </label>
+                                                <div class="col-sm-10 ">
+                                                    <p class="mb-0"> 01-01-2020 </p>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row align-items-center mb-1">
+                                                <label for="staticEmail" class="col-sm-2 col-form-label mb-0">
+                                                    Status :
+                                                </label>
+                                                <div class="col-sm-10 ">
+                                                    <p class="mb-0"> Generated </p>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row align-items-center mb-1">
+                                                <label for="staticEmail" class="col-sm-2 col-form-label mb-0">
+                                                    Invoice Amount :
+                                                </label>
+                                                <div class="col-sm-10 ">
+                                                    <p class="mb-0"> 50.00 USD </p>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row align-items-center mb-1">
+                                                <label for="staticEmail" class="col-sm-2 col-form-label mb-0">
+                                                    Discount :
+                                                </label>
+                                                <div class="col-sm-10 ">
+                                                    <div class="discount-type d-flex align-items-center">
+                                                        <input type="text" class="form-control mr-3"
+                                                            style="max-width: 150px;" value="0.00" />
+                                                        <label class="custom-radio mr-3">
+                                                            <input type="radio" name="auto-approve-invoices">
+                                                            <span class="check-mark"></span>
+                                                            <span class="radio-label-text ml-0">%</span>
+                                                        </label>
+                                                        <label class="custom-radio">
+                                                            <input type="radio" name="auto-approve-invoices">
+                                                            <span class="check-mark"></span>
+                                                            <span class="radio-label-text ml-0">Amount</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row align-items-center mb-1">
+                                                <label for="staticEmail" class="col-sm-2 col-form-label mb-0">
+                                                    Tax :
+                                                </label>
+                                                <div class="col-sm-10">
+                                                    <div class="discount-type d-flex align-items-center">
+                                                        <input type="text" class="form-control mr-3"
+                                                            style="max-width: 150px;" value="0.00" />
+                                                        <span class="radio-label-text ml-0">% <i
+                                                                class="text-blue">(USD)</i> </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group row align-items-center mb-1">
+                                                <label for="staticEmail" class="col-sm-2 col-form-label mb-0">
+                                                    Tax Amount:
+                                                </label>
+                                                <div class="col-sm-10 ">
+                                                    <p class="mb-0"> 50.00 USD</p>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step-tab-panel" data-step="step2">
+                                <h1>Step 2 tab-panel </h1>
+                            </div>
+                            <div class="step-tab-panel" data-step="step3">
+                                <h1>Step 3 tab-panel </h1>
+                            </div>
+                            <div class="step-tab-panel" data-step="step4">
+                                <h1>Step 4 tab-panel </h1>
+                            </div>
+                            <div class="step-tab-panel" data-step="step5">
+                                <h1>Step 5 tab-panel </h1>
+                            </div>
+                        </div>
+                        <div class="step-footer">
+                            <button data-step-action="prev" class="step-btn">Previous</button>
+                            <button data-step-action="next" class="step-btn">Next</button>
+                            <button data-step-action="finish" class="step-btn">Finish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ invoice-details -->
+
+
+    </main>
+    <!-- dashboard -->
+
+
+
+    <!-- Main Coding End -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src='assets/js/select2.full.min.js'></script>
+    <script src='assets/js/jquery-steps.min.js'></script>
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

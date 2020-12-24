@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.338" height="19.555" viewBox="0 0 17.338 19.555">
+  <g id="Group_653" data-name="Group 653" transform="translate(0 0.707)">
+    <path id="Icon_metro-file-excel" data-name="Icon metro-file-excel" d="M16.194,5.73a2.159,2.159,0,0,1,.445.705,2.142,2.142,0,0,1,.186.817V17.943a.887.887,0,0,1-.891.891H3.462a.887.887,0,0,1-.891-.891V3.094A.887.887,0,0,1,3.462,2.2h8.315a2.142,2.142,0,0,1,.817.186,2.159,2.159,0,0,1,.705.445Zm-4.12-2.264V6.955h3.489a1.014,1.014,0,0,0-.2-.381l-2.9-2.9a1.014,1.014,0,0,0-.381-.2Zm3.564,14.18v-9.5H11.777a.887.887,0,0,1-.891-.891V3.391H3.759V17.646H15.638ZM6.552,15.474v.984H9.16v-.984h-.7L9.42,13.98a1.33,1.33,0,0,0,.093-.153q.046-.088.07-.125t.032-.037h.019a.32.32,0,0,0,.046.093.519.519,0,0,0,.042.07q.023.032.056.074l.06.079.993,1.494h-.705v.984h2.7v-.984h-.631l-1.782-2.534,1.81-2.617h.622V9.331H10.255v.993h.687L9.986,11.8q-.037.065-.093.153t-.084.125l-.019.028H9.772a.319.319,0,0,0-.046-.093,1.107,1.107,0,0,0-.158-.213l-.984-1.476H9.29V9.331H6.6v.993h.631l1.754,2.524-1.8,2.626H6.552Z" transform="translate(-2.571 0.014)" fill="#14bf5d"/>
+    <g id="Icon_feather-arrow-down-left" data-name="Icon feather-arrow-down-left" transform="translate(13.304 0)">
+      <path id="Path_441" data-name="Path 441" d="M10.5,13.826,13.826,10.5" transform="translate(-10.5 -10.5)" fill="none" stroke="#14bf5d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_442" data-name="Path 442" d="M10.5,10.5h3.326v3.326" transform="translate(-10.5 -10.5)" fill="none" stroke="#14bf5d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

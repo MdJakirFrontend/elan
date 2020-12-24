@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Group_7653" data-name="Group 7653" transform="translate(-1085 -593)">
+    <circle id="Ellipse_789" data-name="Ellipse 789" cx="18" cy="18" r="18" transform="translate(1085 593)" fill="#4286f4" opacity="0.2"/>
+    <g id="pie-chart_3_" data-name="pie-chart (3)" transform="translate(1092.957 600.957)">
+      <g id="Group_7648" data-name="Group 7648" transform="translate(10.141)">
+        <g id="Group_7647" data-name="Group 7647">
+          <path id="Path_5006" data-name="Path 5006" d="M256.423,0A.423.423,0,0,0,256,.423v9.3a.423.423,0,0,0,.423.423h9.3a.423.423,0,0,0,.423-.423A9.729,9.729,0,0,0,256.423,0Z" transform="translate(-256)" fill="#4286f4"/>
+        </g>
+      </g>
+      <g id="Group_7650" data-name="Group 7650" transform="translate(0 0.845)">
+        <g id="Group_7649" data-name="Group 7649">
+          <path id="Path_5007" data-name="Path 5007" d="M15.122,38.4,9.3,30.907V21.756a.423.423,0,0,0-.423-.423C3.98,21.333,0,25.693,0,31.051a9.729,9.729,0,0,0,9.718,9.718,7.219,7.219,0,0,0,5.338-1.786A.423.423,0,0,0,15.122,38.4Z" transform="translate(0 -21.333)" fill="#4286f4"/>
+        </g>
+      </g>
+      <g id="Group_7652" data-name="Group 7652" transform="translate(10.986 10.986)">
+        <g id="Group_7651" data-name="Group 7651">
+          <path id="Path_5008" data-name="Path 5008" d="M286.21,277.333h-8.45a.422.422,0,0,0-.328.688l5.493,6.8a.423.423,0,0,0,.3.156h.03a.425.425,0,0,0,.288-.113,9.758,9.758,0,0,0,3.091-7.109A.423.423,0,0,0,286.21,277.333Z" transform="translate(-277.338 -277.333)" fill="#4286f4"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

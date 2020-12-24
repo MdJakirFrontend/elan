@@ -1,0 +1,129 @@
+// @media (max-width:1200px) 
+@media (max-width:1200px) {}
+
+
+// @media (max-width:992px) 
+@media (max-width:992px) {
+    .header ul.header-nav-list .dropdown .btn-user-profile.dropdown-toggle {
+        width: 70px;
+    }
+
+    .instrument .instrument-list-group .instrument-list-item {
+        display: block;
+    }
+}
+
+
+// @media (max-width:576px)
+@media (max-width:775px) {
+    .reports {
+        .reports-category-grids {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+}
+
+// @media (max-width:576px)
+@media (max-width:576px) {
+
+    .header ul.header-nav-list .dropdown .btn-user-profile {
+        &.dropdown-toggle {
+            width: 50px;
+        }
+
+        >img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    .header ul.header-nav-list {
+        .badgeWrapper {
+            width: 32px !important;
+            padding: 0;
+
+            .badge {
+                width: 18px;
+                height: 18px;
+            }
+        }
+
+        >li+li {
+            padding-left: 10px;
+        }
+    }
+
+    .header ul.header-nav-list .dropdown .dropdown-menu.notification-dropdown-menu {
+        width: 255px;
+    }
+
+    .header ul.header-nav-list .dropdown .dropdown-menu.dropdown-menu-panel .dropdown-list-group li.list-group-item {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+
+        a.list-group-item-linkable {
+            display: grid;
+            grid-template-columns: 50px 1fr 55px;
+            grid-gap: 10px;
+            text-decoration: none;
+            color: var(--theme-gray-dark);
+            align-items: flex-start;
+        }
+    }
+
+    .header ul.header-nav-list .dropdown .dropdown-menu.dropdown-menu-panel .dropdown-list-group li.list-group-item a.list-group-item-linkable .list-group-item-icon {
+        width: 30px;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .order-summery .order-summery-inner .order-summery-group .grid-item,
+    .supplies-order-list-group .table-data {
+        font-size: 12px;
+    }
+
+    .supplies-order-list-group .table-data {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #reservation-add-modal .modal-content .reservation-tabs .nav-link {
+        padding: 10px 0;
+        margin-right: 15px;
+    }
+
+    .ideal-card-nav-pills {
+        margin-top: 10px;
+
+        .nav-item .nav-link {
+            padding: 4px 10px;
+        }
+    }
+}
+
+// @media (max-width:576px)
+@media (max-width:450px) {
+
+
+}
+
+// line-chart-tab-content 
+.line-chart-tab-content {
+    @media (max-width:1200px) {
+        --lineChartHeight: 36vw;
+    }
+
+    @media (max-width:768px) {
+        --lineChartHeight: 55vw;
+    }
+
+    @media (max-width:576px) {
+        --lineChartHeight: 60vw;
+
+        .line-chart {
+            height: calc(var(--lineChartHeight) - 2vw);
+        }
+    }
+}

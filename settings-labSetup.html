@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en-US"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<!--<![endif]-->
+<!--[if gte IE 9] <style type="text/css"> .gradient {filter: none;}</style><![endif]-->
+<!--[if !IE]><html lang="en"><![endif]-->
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Required meta tags for responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Favicon and touch icons -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
+    <meta name="misapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="@twitter_username" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="R" />
+    <meta property="fb:admins" content="Facebook numeric ID" />
+    <!-- gmail verification -->
+    <meta name="google-site-verification" content="" />
+    <!-- Website title -->
+    <title>Settings - Lab Setup</title>
+    <link rel="stylesheet" href="assets/css/fonts-import.css" />
+    <link rel="stylesheet" href="assets/css/nioicon.css" />
+    <link rel="stylesheet" href="assets/css/normalize.min.css" />
+    <link rel="stylesheet" href="assets/css/select2.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <!-- jQuery (necessary for jQuery plugins) -->
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+</head>
+
+<body>
+    <!-- Main Coding Start Here -->
+
+
+
+
+
+    <!-- navigation-sidebar -->
+    <aside id="navigation-sidebar">
+        <nav class="navbar-light">
+            <div class="navigation-sidebar-collapse text-left mt-3">
+                <ul class="navbar-nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <img src="assets/img/filI-icons/dashboard.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <img src="assets/img/filI-icons/schedule.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Scheduler</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="instrument.html">
+                            <img src="assets/img/filI-icons/lab-instrument.svg" alt=""
+                                class="nav-icon img-fluid mr-2" />
+                            <span>Instrument</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="supplies-order.html">
+                            <img src="assets/img/filI-icons/supplies.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Supplies</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reports.html">
+                            <img src="assets/img/filI-icons/reportIcon.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Reports</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="settings-labSetup.html">
+                            <img src="assets/img/filI-icons/settings.svg" alt="" class="nav-icon img-fluid mr-2" />
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="dashboard-current-user mt-2 pl-1">
+                    <div class="dropdown">
+                        <div class="btn btn-user-profile py-0 px-0 d-flex align-items-center text-left" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="assets/img/avatar.png" alt="" class="current-user-img img-fluid mr-2" />
+                            <h6 class="user-name mb-0">Mangesh</h6>
+                        </div>
+                        <div class="user-profile-dropdown-menu dropdown-menu">
+                            <div class="name-and-other-things py-2 px-4 border-bottom">
+                                <h6 class="user-name mb-0">Mangesh</h6>
+                                <p class="email mb-0"><small>mangesh@gmail.com</small></p>
+                            </div>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/svg-icons/bundle-2/User.svg" alt="" class="imgIcon img-fluid" />
+                                My Profile
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/menu-icons/Supplies.svg" alt="" class="imgIcon img-fluid" />
+                                My Supplies
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/reportsIcon.png" alt="" class="imgIcon img-fluid" />
+                                My Reports
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/my-request.svg" alt="" class="imgIcon img-fluid" />
+                                My Requests
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/calender-blue.png" alt="" class="imgIcon img-fluid" />
+                                My Reservation
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/technical-issue.svg" alt="" class="imgIcon img-fluid" />
+                                My Technical Issues
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/lab-instrument.svg" alt="" class="imgIcon img-fluid" />
+                                Favorite Instrument
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/favourite-request.svg" alt=""
+                                    class="imgIcon img-fluid" />
+                                Favorite Request Forms
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <img src="assets/img/filI-icons/startpage.svg" alt="" class="imgIcon img-fluid" />
+                                Make as Start Page
+                            </a>
+                            <a class="dropdown-item dropdown-sign-out bg-primary text-light" href="#">
+                                <span class="ni ni-signout"></span>
+                                Sign Out
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="sidebar-logo">
+            <a class="navbar-brand main-logo px-0 py-0 d-inline-block mx-auto" href="index.html">
+                <img src="assets/img/logo.png" alt="" class="img-fluid" />
+            </a>
+        </div>
+    </aside>
+    <!-- navigation-sidebar -->
+
+
+
+
+    <!-- header -->
+    <header class="header">
+        <div class="container-fluid px-3 px-md-3">
+            <div class="row align-items-center justify-content-between flex-nowrap">
+                <div class="col">
+                    <div class="header-left-inner d-flex align-items-center ml-1 ml-md-lg">
+                        <button class="btn px-0 py-0 sidebarToggle mr-1 mr-lg-3">
+                            <span class="ni ni-menu"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <a href="index.html" class="d-inline-block dashboard-logo">
+                        <img src="assets/img/dashboard-logo.png" alt="" class="d-inline-block img-fluid" />
+                    </a>
+                </div>
+                <div class="col">
+                    <ul class="header-nav-list list-unstyled d-flex align-items-center justify-content-end my-0">
+                        <li class="d-block d-lg-none">
+                            <div class="dropdown dropdownForFacility">
+                                <button class="btn btn-light rounded-circle border" type="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    <img src="assets/img/chevron-down.png" alt="" class="img-fluid" />
+                                </button>
+                                <div class="dropdown-menu">
+                                    <select class="form-control select2-init-forFacility">
+                                        <option> Media Prep (MPRP)</option>
+                                        <option> Media Prep</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="d-none d-lg-block mr-2">
+                            <select class="form-control select2-init-forFacility">
+                                <option> Media Prep (MPRP)</option>
+                                <option> Media Prep</option>
+                            </select>
+                        </li>
+                        <li>
+                            <ul class="list-unstyled header-nav-inner-list d-flex align-items-center">
+                                <li class="mr-1">
+                                    <div class="dropdown">
+                                        <button
+                                            class="btn badgeWrapper dropdown-toggle d-flex align-items-center text-left"
+                                            type="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <img src="assets/img/filI-icons/notification.svg" alt=""
+                                                class="img-fluid" />
+                                            <span class="badge badge-secondary">9</span>
+                                        </button>
+                                        <div class="notification-dropdown-menu dropdown-menu-panel dropdown-menu">
+                                            <div class="dropdown-menu-panel-head border-bottom py-4 text-center">
+                                                <h5 class="dropdown-menu-panel-head-title text-blue">Notification
+                                                </h5>
+                                            </div>
+                                            <ul class="dropdown-list-group list-group list-group-flush">
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-red.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Password change</h6>
+                                                            <p class="mb-0">Your password has been changed</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-yellow.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Login in</h6>
+                                                            <p class="mb-0">Your account logged in an unknown device
+                                                                from "USA"</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/plus-circle-green.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Lab</h6>
+                                                            <p class="mb-0">New lab added in list</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-red.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Password change</h6>
+                                                            <p class="mb-0">Your password has been changed</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/lock-yellow.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Login in</h6>
+                                                            <p class="mb-0">Your account logged in an unknown device
+                                                                from "USA"</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/plus-circle-green.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Lab</h6>
+                                                            <p class="mb-0">New lab added in list</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="dropdown-menu-panel-head border-top py-4 text-center">
+                                                <a href="#" class="dropdown-menu-panel-head-title see-all">
+                                                    See All &nbsp; <i class="ni ni-arrow-long-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="dropdown">
+                                        <button
+                                            class="btn badgeWrapper dropdown-toggle d-flex align-items-center text-left"
+                                            type="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            <img src="assets/img/filI-icons/chat.svg" alt=""
+                                                class="img-fluid" />
+                                            <span class="badge badge-secondary">5</span>
+                                        </button>
+                                        <div class="notification-dropdown-menu dropdown-menu-panel dropdown-menu">
+                                            <div
+                                                class="dropdown-menu-panel-head border-bottom py-4 px-4 d-flex align-items-center justify-content-between">
+                                                <h5 class="dropdown-menu-panel-head-title text-blue">Message</h5>
+                                                <span class="mb-0">All Mark As Read</span>
+                                            </div>
+                                            <ul class="dropdown-list-group list-group list-group-flush">
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Alex.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Alex Smith</h6>
+                                                            <p class="mb-0">Hi! I am Alex. Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Alberto.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Alberto Tolbert</h6>
+                                                            <p class="mb-0">Hi! I am Alberto J. Tolbert. Nice to
+                                                                meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Muriel.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Muriel Frye</h6>
+                                                            <p class="mb-0">Hi! I am Muriel Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item px-4 py-3">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Maria.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Maria Mitchell</h6>
+                                                            <p class="mb-0">Hi! I am Maria Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Charles.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Charles Credle</h6>
+                                                            <p class="mb-0">Hi! I am Charles Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Kenna.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Kenna McPherson</h6>
+                                                            <p class="mb-0">Hi! I am Kenna Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <a href="#" class="list-group-item-linkable">
+                                                        <img src="assets/img/Ricky.png" alt=""
+                                                            class="list-group-item-icon img-fluid" />
+                                                        <div class="list-group-item-content">
+                                                            <h6 class="mb-1">Ricky Ward</h6>
+                                                            <p class="mb-0">Hi! I am Ricky Nice to meet you.</p>
+                                                        </div>
+                                                        <p class="minAgo-status">5 min ago</p>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="dropdown-menu-panel-head border-top py-4 text-center">
+                                                <a href="#" class="dropdown-menu-panel-head-title see-all">
+                                                    See All &nbsp; <i class="ni ni-arrow-long-right"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+
+
+
+    <!-- dashboard -->
+    <main id="dashboard">
+        <!-- manual-breadcrumb -->
+        <div class="manual-breadcrumb py-2 mx-3 mx-md-3">
+            <div class="container-fluid px-0">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb py-0">
+                        <li class="breadcrumb-item"><a href="#">Settings</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <span>Lab Setup</span>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!--/ manual-breadcrumb -->
+
+
+
+        <!-- settings -->
+        <section class="settings mx-3 mx-md-3">
+            <div class="ideal-card bg-white rounded mb-3 collapsed-group">
+                <header class="ideal-card-header border-bottom px-4 py-3">
+                    <h4 class="ideal-card-header-title d-flex align-items-center mb-0">
+                        <!-- <img src="assets/img/card-header-info.png" alt="" class="img-fluid mr-3" /> -->
+                        Basic Details
+                        <button type="button" class="btn btn-primary btn-sm btnCollapsedToggle ml-3">
+                            <i class="ni ni-plus"></i>
+                        </button>
+                    </h4>
+                </header>
+                <div class="ideal-card-body px-4 collapsed-item" style="display: none">
+                    <form action="#" method="POST" class="py-3">
+                        <div class="ideal-card-panel-group mb-4">
+                            <h5 class="ideal-card-panel-title">Contact Information</h5>
+                            <div class="ideal-card-form-group mt-3">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>Address*</label>
+                                            <input type="text" class="form-control" placeholder="Enter Address" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>Country*</label>
+                                            <input type="text" class="form-control" placeholder="USA" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>Address Line 2</label>
+                                            <input type="text" class="form-control"
+                                                placeholder="Area, Colony, Sector, Village" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>City</label>
+                                            <input type="text" class="form-control" placeholder="City" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>Phone</label>
+                                            <input type="text" class="form-control"
+                                                placeholder="+245 5899 4555" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="form-group">
+                                                    <label>State</label>
+                                                    <input type="text" class="form-control" placeholder="ND" />
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="form-group">
+                                                    <label>Zip Code</label>
+                                                    <input type="text" class="form-control"
+                                                        placeholder="58102" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>Fax</label>
+                                            <input type="text" class="form-control"
+                                                placeholder="+245 5899 4555" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ideal-card-panel-group mb-4">
+                            <h5 class="ideal-card-panel-title">Lab Information</h5>
+                            <div class="ideal-card-form-group mt-3">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>lab Name*</label>
+                                            <input type="text" class="form-control" placeholder="Enter Address" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>Lab Code*</label>
+                                            <input type="text" class="form-control" placeholder="USA" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>Institution</label>
+                                            <select class="form-control select-control">
+                                                <option> Ideal Elan</option>
+                                                <option> Example - 2 </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>Department</label>
+                                            <select class="form-control select-control">
+                                                <option> Enter Department</option>
+                                                <option> Example - 2 </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="ideal-card-panel-group">
+                            <h5 class="ideal-card-panel-title">Other Information</h5>
+                            <div class="ideal-card-form-group mt-3">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>Price Type</label>
+                                            <select class="form-control select-control">
+                                                <option> Enter Price Type</option>
+                                                <option> Example - 2 </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>Lab Type</label>
+                                            <select class="form-control select-control">
+                                                <option> Internal </option>
+                                                <option> Example - 2 </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label>Admin</label>
+                                            <select multiple class="select2-init form-control">
+                                                <option value="1" selected>Admin Lab</option>
+                                                <option value="2">Admin Lab - 2 </option>
+                                                <option value="3">Admin Lab - 3 </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-ideal bg-theme-blue text-light px-4 btn-submit">Save</button>
+                    </form>
+                </div>
+            </div>
+            <div class="ideal-card bg-white rounded mb-3 collapsed-group">
+                <header class="ideal-card-header border-bottom px-4 py-3">
+                    <h4 class="ideal-card-header-title d-flex align-items-center mb-0">
+                        Lab Setting
+                        <button type="button" class="btn btn-primary btn-sm btnCollapsedToggle ml-3">
+                            <i class="ni ni-plus"></i>
+                        </button>
+                    </h4>
+                </header>
+                <div class="ideal-card-body px-4 collapsed-item" style="display: none">
+                    <form class="labSetting py-3" action="#" method="POST">
+                        <div class="ideal-card-panel-group mb-3">
+                            <div class="ideal-card-form-group mt-3">
+                                <div class="row"> 
+                                    <div class="col-xl-6">
+                                        <div class="form-group">
+                                            <label for="auto-improve">
+                                                <span class="switch mr-3">
+                                                    <input type="checkbox" checked id="auto-improve" />
+                                                    <span class="slider round"></span>
+                                                </span>
+                                                Auto approve all users
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="share-sample">
+                                                <span class="switch mr-3">
+                                                    <input type="checkbox" id="share-sample" />
+                                                    <span class="slider round"></span>
+                                                </span>
+                                                Share Sample
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="custom-radio">
+                                                <input type="radio" checked name="auto-approve-invoices" />
+                                                <span class="check-mark"></span>
+                                                <span class="radio-label-text ml-2">Auto approve invoices that are less
+                                                    than</span>
+                                            </label>
+                                            <input type="number" class="form-control mt-2" value="10"
+                                                style="max-width: 200px; margin-left: 30px;" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="custom-radio">
+                                                <input type="radio" name="auto-approve-invoices" />
+                                                <span class="check-mark"></span>
+                                                <span class="radio-label-text ml-2">Auto approve all invoices</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-ideal bg-theme-blue text-light px-4 btn-submit">Update</button>
+                    </form>
+                </div>
+            </div>
+            <div class="ideal-card bg-white rounded mb-4 collapsed-group">
+                <header
+                    class="ideal-card-header border-bottom d-flex align-items-center justify-content-between px-4 py-3 mb-3">
+                    <h4 class="ideal-card-header-title d-flex align-items-center mb-0">
+                        Billing Information
+                        <button type="button" class="btn btn-primary btn-sm btnCollapsedToggle ml-3">
+                            <i class="ni ni-plus"></i>
+                        </button>
+                    </h4>
+                    <a href="#" class="btn btn-ideal bg-theme-blue text-light px-4">Add New</a>
+                </header>
+                <div class="ideal-card-body px-4 collapsed-item" style="display: none">
+                    <div class="table-top">
+                        <div class="clone-data row d-block d-lg-flex">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label>Category</label>
+                                    <select class="form-control select-control">
+                                        <option value="1">Account Code</option>
+                                        <option value="2">Example - 2 </option>
+                                        <option value="3">Example - 3 </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label>Account Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter Account Name" />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label>Code</label>
+                                    <input type="text" class="form-control" placeholder="Enter Account Code" />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label>Date</label>
+                                    <input type="date" class="form-control dateTime-init" />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="form-group">
+                                    <label> &nbsp; </label>
+                                    <div class="button-group btn-clone-group">
+                                        <button type="button" class="btn btn-plus-circle mr-3 btn-addMore">
+                                            <i class="ni ni-plus"></i>
+                                        </button>
+                                        <button type="button" class="btn btn-ideal bg-theme-blue text-light px-4">
+                                            Save
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clone-body"></div>
+                    </div>
+                    <div class="billing-information-scrolling pr-3">
+                        <div class="table-body table-responsive">
+                            <table class="billing-information-table table table-hover">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th scope="col" style="width: 32%;">Name</th>
+                                        <th scope="col" style="width: 32%;">Account Code</th>
+                                        <th scope="col" style="width: 32%;">Expiration</th>
+                                        <th scope="col" style="width: 4%;"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>ACC5</td>
+                                        <td>ACC5</td>
+                                        <td>23 Dec, 2020</td>
+                                        <td>
+                                            <button type="button" class="btn btn-trash">
+                                                <img src="assets/img/svg-icons/bundle-3/Icon-material-delete-forever.svg"
+                                                    alt="" class="img-fluid" />
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/ settings -->
+
+
+    </main>
+    <!-- dashboard -->
+
+
+
+    <!-- Main Coding End -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src='assets/js/select2.full.min.js'></script>
+    <script src='assets/js/jquery.nicescroll.min.js'></script>
+    <!-- Script JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

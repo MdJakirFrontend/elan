@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46.886" height="59.24" viewBox="0 0 46.886 59.24">
+  <g id="Supplies_Order_Recurrence" data-name="Supplies Order Recurrence" transform="translate(-483 -2105.76)">
+    <g id="Group_1454" data-name="Group 1454" transform="translate(483 2105.76)">
+      <g id="Group_671" data-name="Group 671" transform="translate(0 12.833)">
+        <g id="Group_659" data-name="Group 659" transform="translate(0.346 0.346)">
+          <path id="Path_496" data-name="Path 496" d="M22.342,37.985V12.853A13.324,13.324,0,0,0,18.88,4H17.149a13.324,13.324,0,0,1,3.462,8.853V37.985a4.093,4.093,0,0,0,4.327,3.81h1.731A4.093,4.093,0,0,1,22.342,37.985Z" transform="translate(-17.149 -4)"/>
+        </g>
+        <g id="Group_661" data-name="Group 661" transform="translate(3.808 17.747)">
+          <path id="Path_498" data-name="Path 498" d="M37.149,134.174v16.067a4.327,4.327,0,0,0,4.327,4.327H62.9a4.327,4.327,0,0,0,4.327-4.327V134.174Z" transform="translate(-37.149 -134.174)"/>
+        </g>
+        <g id="Group_664" data-name="Group 664" transform="translate(28.907 8.97)">
+          <path id="Path_501" data-name="Path 501" d="M186.966,61.554h-4.46a.346.346,0,1,1,0-.692h4.46a.346.346,0,1,1,0,.692Z" transform="translate(-182.16 -60.862)"/>
+        </g>
+        <g id="Group_665" data-name="Group 665" transform="translate(28.907 16.078)">
+          <path id="Path_502" data-name="Path 502" d="M186.966,108.192h-4.46a.346.346,0,1,1,0-.692h4.46a.346.346,0,1,1,0,.692Z" transform="translate(-182.16 -107.5)"/>
+        </g>
+        <g id="Group_666" data-name="Group 666" transform="translate(28.907 23.185)">
+          <path id="Path_503" data-name="Path 503" d="M186.966,154.83h-4.46a.346.346,0,1,1,0-.692h4.46a.346.346,0,1,1,0,.692Z" transform="translate(-182.16 -154.138)"/>
+        </g>
+        <g id="Group_667" data-name="Group 667" transform="translate(28.907 30.293)">
+          <path id="Path_504" data-name="Path 504" d="M186.966,201.467h-4.46a.346.346,0,0,1,0-.692h4.46a.346.346,0,1,1,0,.692Z" transform="translate(-182.16 -200.775)"/>
+        </g>
+        <g id="Group_668" data-name="Group 668" transform="translate(3.462 17.401)">
+          <path id="Path_505" data-name="Path 505" d="M61.247,153.26H39.822a4.679,4.679,0,0,1-4.673-4.673V132.52a.346.346,0,0,1,.346-.346H65.574a.346.346,0,0,1,.346.346v16.067A4.678,4.678,0,0,1,61.247,153.26ZM35.841,132.866v15.721a3.986,3.986,0,0,0,3.981,3.981H61.247a3.986,3.986,0,0,0,3.981-3.981V132.866Z" transform="translate(-35.149 -132.174)"/>
+        </g>
+        <g id="Group_669" data-name="Group 669" transform="translate(0 0)">
+          <path id="Path_506" data-name="Path 506" d="M44.708,40.487H23.284a4.429,4.429,0,0,1-4.673-4.124V11.177a13.145,13.145,0,0,0-3.388-8.684.276.276,0,0,1-.038-.322A.353.353,0,0,1,15.5,2H53a1.178,1.178,0,0,1,1.163.769.994.994,0,0,1-.51,1.2L50.02,6.022a1.189,1.189,0,0,0-.638,1.029V36.363A4.429,4.429,0,0,1,44.708,40.487ZM16.186,2.611A13.644,13.644,0,0,1,19.3,11.177V36.363a3.773,3.773,0,0,0,3.981,3.513H44.708a3.773,3.773,0,0,0,3.981-3.513V7.051a1.784,1.784,0,0,1,.957-1.544l3.635-2.053A.42.42,0,0,0,53.5,2.94a.5.5,0,0,0-.5-.33Z" transform="translate(-15.149 -2)"/>
+        </g>
+        <g id="Group_670" data-name="Group 670" transform="translate(6.923 12.664)">
+          <path id="Path_507" data-name="Path 507" d="M45.5,88.445a.346.346,0,0,1-.346-.346V86.022a.346.346,0,1,1,.692,0V88.1A.346.346,0,0,1,45.5,88.445Z" transform="translate(-45.149 -85.676)"/>
+        </g>
+      </g>
+      <path id="Path_508" data-name="Path 508" d="M19.513.008a.638.638,0,0,0-.644.387L1.743,32.565A2.291,2.291,0,0,0,.023,34.519a2.089,2.089,0,0,0,1.719,2.452A2.21,2.21,0,0,0,4.08,34.986a2.355,2.355,0,0,0-.129-1.149l15.91-32.7C20.095.663,19.916.084,19.513.008Z" transform="matrix(-0.998, 0.07, -0.07, -0.998, 31.225, 36.894)"/>
+    </g>
+    <path id="Path_843" data-name="Path 843" d="M13.5,0A13.5,13.5,0,1,1,0,13.5,13.5,13.5,0,0,1,13.5,0Z" transform="translate(502.886 2138)" fill="#fff"/>
+    <g id="Icon_feather-refresh-ccw" data-name="Icon feather-refresh-ccw" transform="translate(507.838 2143.991)">
+      <path id="Path_834" data-name="Path 834" d="M1.5,6v4.579H6.079" transform="translate(-1.5 -5.239)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_835" data-name="Path 835" d="M30.079,25.579V21H25.5" transform="translate(-13.29 -12.607)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Path_836" data-name="Path 836" d="M16.374,9.081A6.868,6.868,0,0,0,5.041,6.516L1.5,9.844M18.289,12.9l-3.541,3.327A6.868,6.868,0,0,1,3.416,13.66" transform="translate(-1.5 -4.503)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
